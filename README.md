@@ -1,0 +1,2 @@
+# GOLD-EA-MT5-WITH-OPENAI
+Trading with AI 
