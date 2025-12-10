@@ -213,4 +213,12 @@ This section explains the main modules, functions, inputs and runtime behavior i
 
 ---
 
-This README now focuses purely on documentation and a step-by-step explanation of what each major part of the EA does and how they interact. If you want further expansion on any single function (for example, the exact fields used in the `MqlTradeRequest` or a line-level walkthrough of `ManageTrailingStopLoss()`), tell me which function and I'll expand that section in-place.
+
+
+
+
+
+
+
+
+
