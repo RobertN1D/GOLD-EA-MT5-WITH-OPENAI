@@ -44,7 +44,7 @@ input group "══════════════════════�
 input group "OpenAI AI Integration"
 input bool     InpUseAI          = true;     // Use AI for Trading Decisions
 input string   InpOpenAIAPIKey   = "YOUR OPENAI HERE";       // OpenAI API Key (sk-...)
-input string   InpOpenAIModel    = "gpt-5.1"; // OpenAI Model
+input string   InpOpenAIModel    = "gpt-5-mini"; // OpenAI Model
 input int      InpAIUpdateMinutes = 1;      // AI Analysis Update (minutes) - MUST BE 1 for swing trading
 input double   InpAIConfidenceMin = 0.7;    // Minimum AI Confidence (0.0-1.0)
 input bool     InpAIOverride      = true;  // Allow AI to Override Signals
