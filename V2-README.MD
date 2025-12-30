@@ -1,4 +1,3 @@
-Here is the corrected and detailed technical documentation for the code provided. As requested, this document refers to the system as Gold Dashboard V2, acknowledging that the "3.2" in the code header was a labeling error.
 
 This document breaks down the specific algorithms found in the source code (Regime Detection, Kelly Criterion, 100-Bar Analysis) and explains exactly how the AI component functions.
 
