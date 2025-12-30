@@ -1,5 +1,5 @@
 //+------------------------------------------------------------------+
-//|                                          GOLD DASHBOARD V2.0     |
+//|                                          GOLD DASHBOARD v1.0     |
 //|                    Modern Modular Trading Dashboard for Gold      |
 //|              Clean Architecture | Reliable Order Execution        |
 //+------------------------------------------------------------------+
@@ -76,7 +76,7 @@ input bool     InpTestMode       = false;    // Enable Test Mode (Place 0.01 lot
 //+------------------------------------------------------------------+
 //| GLOBAL VARIABLES                                                 |
 //+------------------------------------------------------------------+
-string         g_Prefix = "GOLD_V2_";
+string         g_Prefix = "GOLD_v1_";
 
 // Indicator Handles
 int            g_HandleRSI;
@@ -273,7 +273,7 @@ void RunTestMode()
       request.tp = 0; // No TP initially
       request.deviation = 10;
       request.magic = 123456;
-      request.comment = "GOLD V2 - AI TEST";
+      request.comment = "GOLD v1 - AI TEST";
       
       long fillingMode = SymbolInfoInteger(_Symbol, SYMBOL_FILLING_MODE);
       if((fillingMode & SYMBOL_FILLING_FOK) == SYMBOL_FILLING_FOK) {
@@ -489,7 +489,7 @@ int OnInit()
    // Set timer
    EventSetTimer(1);
    
-   Print("GOLD DASHBOARD V2 initialized successfully for ", _Symbol);
+   Print("GOLD DASHBOARD v1 initialized successfully for ", _Symbol);
    Print("Trading: ", (InpEnableTrading ? "ENABLED" : "DISABLED"));
    
    if(InpTestMode) {
@@ -521,7 +521,7 @@ void OnDeinit(const int reason)
    if(g_HandleMASlow != INVALID_HANDLE) IndicatorRelease(g_HandleMASlow);
    if(g_HandleATR != INVALID_HANDLE) IndicatorRelease(g_HandleATR);
    
-   Print("GOLD DASHBOARD V2 deinitialized");
+   Print("GOLD DASHBOARD v1 deinitialized");
 }
 
 //+------------------------------------------------------------------+
@@ -1002,7 +1002,7 @@ void ExecuteBuyOrder(double entryPrice, double atr)
    request.tp = 0; // No TP - AI manages
    request.deviation = 10;
    request.magic = 123456;
-   request.comment = "GOLD V2 - AI Managed";
+   request.comment = "GOLD v1 - AI Managed";
    
    // Detect and set correct filling mode for this broker
    long fillingMode = SymbolInfoInteger(_Symbol, SYMBOL_FILLING_MODE);
@@ -1138,7 +1138,7 @@ void ExecuteSellOrder(double entryPrice, double atr)
    request.tp = 0; // No TP - AI manages
    request.deviation = 10;
    request.magic = 123456;
-   request.comment = "GOLD V2 - AI Swing SELL";
+   request.comment = "GOLD v1 - AI Swing SELL";
    
    // Detect and set correct filling mode for this broker
    long fillingMode = SymbolInfoInteger(_Symbol, SYMBOL_FILLING_MODE);
