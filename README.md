@@ -1,3 +1,18 @@
+# 🚀 AlgoStrategyLab: The MQ5 Strategy Builder
+
+### *Don't just trade. Build your own EA through chat.*
+
+The files in this repository were created using **[AlgoStrategyLab.com](https://algostrategylab.com)**. We empower traders to generate production-ready `.mq5` Expert Advisors without writing a single line of code.
+
+### 🛠️ How it works:
+* **Chat to Create:** Just describe your entry and exit logic in plain English (e.g., *"Make me an XAUUSD scalper using RSI and 200 EMA"*).
+* **Instant Generation:** Our AI assistant processes your market logic and generates a complete, downloadable `.mq5` file.
+* **Refine & Iterate:** Need to add a trailing stop or change a filter? Just tell the chat and get an updated file instantly.
+
+### 🔗 Start Building
+Stop hiring expensive developers and waiting weeks for code. Build your next strategy today at:
+👉 **[AlgoStrategyLab.com](https://algostrategylab.com)**
+
 # EA-MT5-OPENAI.mq5 — Expert Advisor README
 
 **Repository path:** `mt5-bot/EA-MT5-OPENAI.mq5`
